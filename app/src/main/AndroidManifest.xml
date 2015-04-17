@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.name.internlock" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".If" />
+        <activity
+            android:name=".About"
+            android:label="About" />
+        <activity android:name=".TermsandConditionsEmp" />
+        <activity android:name="com.name.internlockStudent.TermsandConditions" />
+        <activity android:name="com.name.internlockStudent.CreateAc" />
+        <activity
+            android:name="com.name.internlockStudent.UploadPicture"
+            android:label="UploadPicture" />
+        <activity android:name="com.name.internlockStudent.School" />
+        <activity android:name="com.name.internlockStudent.Basic" />
+        <activity android:name="com.name.internlockStudent.Activation" />
+        <activity android:name="com.name.internlockStudent.Home" />
+        <activity android:name="com.name.internlockStudent.Inbox" />
+        <activity android:name="com.name.internlockStudent.OfferS" />
+        <activity android:name="com.name.internlockStudent.SettingMenu" />
+        <activity android:name="com.name.internlockStudent.Message" />
+        <activity android:name="com.name.internlockStudent.OfferDetails" />
+        <activity android:name="com.name.internlockStudent.CompanyProfile" />
+        <activity android:name="com.name.internlockStudent.OfferDescription" />
+        <activity android:name="com.name.internlockStudent.Confirmation" />
+        <activity android:name="com.name.internlockStudent.EditAccount" />
+        <activity android:name="com.name.internlockStudent.EditProfile" />
+        <activity android:name="com.name.internlockStudent.ProfilePreview" />
+        <activity android:name="com.name.internlockStudent.Notifications" />
+        <activity android:name="com.name.interlockEmployer.TermsAndCond" />
+        <activity android:name="com.name.interlockEmployer.CreateAcc" />
+        <activity android:name="com.name.interlockEmployer.UploadPicture" />
+        <activity android:name="com.name.interlockEmployer.Company" />
+        <activity android:name="com.name.interlockEmployer.Activation" />
+        <activity android:name="com.name.interlockEmployer.About" />
+        <activity android:name="com.name.interlockEmployer.Home" />
+        <activity android:name="com.name.interlockEmployer.OffersMenu" />
+        <activity android:name="com.name.interlockEmployer.OfferPreview" />
+        <activity android:name="com.name.interlockEmployer.EditOffer" />
+        <activity android:name="com.name.interlockEmployer.SelectOffer" />
+        <activity android:name="com.name.interlockEmployer.Search" />
+        <activity android:name="com.name.interlockEmployer.SearchResult" />
+        <activity android:name="com.name.interlockEmployer.SearchGPA" />
+        <activity android:name="com.name.interlockEmployer.SearchInterests" />
+        <activity android:name="com.name.interlockEmployer.SearchLocation" />
+        <activity android:name="com.name.interlockEmployer.SearchMajor" />
+        <activity android:name="com.name.interlockEmployer.SearchSchool" />
+        <activity android:name="com.name.interlockEmployer.SearchSkills" />
+        <activity android:name="com.name.interlockEmployer.StudentInfo" />
+        <activity android:name="com.name.interlockEmployer.Confirmation" />
+        <activity android:name="com.name.interlockEmployer.Inbox" />
+        <activity android:name="com.name.interlockEmployer.Message" />
+        <activity android:name="com.name.interlockEmployer.SettingMenu" />
+        <activity android:name="com.name.interlockEmployer.EditAccount" />
+        <activity android:name="com.name.interlockEmployer.Notifications" />
+        <activity android:name="com.name.interlockEmployer.EditProfile" />
+        <activity android:name="com.name.interlockEmployer.ProfilePreview" />
+        <activity android:name="com.name.interlockEmployer.StudentInfoBackup" />
+    </application>
+
+</manifest>

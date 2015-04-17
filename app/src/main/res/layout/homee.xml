@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonInbox"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewChoose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@mipmap/inbox"
+        android:text="View Inbox" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/textViewChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#91020202"
+        android:gravity="center_horizontal"
+        android:text="Name of Company"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/buttonOffers"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonInbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:drawableLeft="@mipmap/offers"
+        android:text="Offers" />
+    
+    <Button
+        android:id="@+id/buttonFind"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOffers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:drawableLeft="@mipmap/find"
+        android:text="Find..." />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonFind"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:drawableLeft="@mipmap/settingse"
+        android:text="Settings" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonInbox"
+        android:layout_gravity="center"
+        android:src="@mipmap/image" />
+
+</RelativeLayout>

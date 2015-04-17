@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Title:"
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offer X"
+        android:id="@+id/textViewOffer"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:orientation="horizontal"
+        android:scaleX="0.5"
+        android:scaleY="0.5" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="*" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/checkBoxRemember"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Intership"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:checked="true"
+                android:text="Job Shadow"
+                android:textSize="12dp" />
+
+            <RadioButton
+                android:id="@+id/Intership"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="Intership"
+                android:textSize="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Pay:"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+             
+            android:textColor="#ff000000" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$20.50/hr."
+            android:ems="10"
+            android:id="@+id/pay"
+            android:textColor="#94090909" />
+      </LinearLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*Hours:"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+             
+            android:textColor="#ff000000" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20hr/week"
+            android:ems="10"
+            android:id="@+id/hours"
+            android:textColor="#94090909" />
+      </LinearLayout>
+    
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Job Description"
+         
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+         
+        android:textSize="16dp"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_alignLeft="@+id/textView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Location: "
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:textSize="16dp"
+        android:textColor="#ff000000" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="San Jose, CA"
+        android:ems="10"
+        android:id="@+id/location"
+        android:textColor="#94090909"
+        android:layout_marginLeft="14dp"
+        android:layout_gravity="right" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Additional Comment"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:textSize="16dp"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Enter here"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginLeft="14dp"
+        android:gravity="top"
+        android:textColor="#94090909" />
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/back"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" Home " />
+    </LinearLayout>
+</LinearLayout>
