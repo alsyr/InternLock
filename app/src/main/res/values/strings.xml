@@ -3,4 +3,67 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="about_contents_FLSA">      The U.S Fair Labor Standards Act (FLSA) only applies to businesses
+        that have two or more employees directly engaged in interstate commerce as well as annual sales of
+        $500,000 or more. Qualified businesses must have their internship programs adhere to six guidelines
+        for interns to be able to be unpaid:\n\n
+        1.	The internship, even though it includes actual operation
+        of the facilities of the employer, is similar to training which would be given in an educational
+        environment;\n\n
+        2.	The internship experience is for the benefit of the intern;\n\n
+        3.	The intern does not displace regular employees, but works under close supervision of existing
+        staff;\n\n
+        4.	The employer that provides the training derives no immediate advantage from the activities of
+        the intern; and on occasion its operations may actually be impeded;\n\n
+        5.	The intern is not necessarily entitled to a job at the conclusion of the internship;\n\n
+        6.	The employer and the intern understand that the intern is not entitled to wages for the time
+        spent in the internship.\n\n </string>
+    <string name="about_contents_IvS">
+        •	Both are for educational purposes\n
+        •	Both have set calendar periods and internships are typically much longer than a job
+            shadow, though not always.\n
+        •	Both are usually done under close supervision of the employer\n
+        •	Shadowing usually involves only observation of an experienced employee\n
+        •	Internships usually involve a significant portion of hands on work whereas job
+            shadowing has little to no work.\n
+        •	Internships supply hands-on experience whereas job shadows supply first hand observations.\n
+</string>
+    <string name="about_contents_nD">
+        In an effort to provide students with a safe and
+        comfortable educational environment during their internship, we require internship
+        site supervisors to review and acknowledge the following standards and policies
+        that apply to our internship program and participants.\n\n
+        San José State University, in accordance with the EEOC, prohibits discrimination on the
+        basis of race, color, religion, national origin, sex, age, sexual orientation, disability, or veteran status. Discrimination against any individual for the above reasons is specifically prohibited except where sex, age, or non-handicap is a bona fide occupational qualification.
+</string>
+    <string name="about_contents_SH">In an effort to provide students with a safe and comfortable
+        educational environment during their internship, we require internship site supervisors to
+        review and acknowledge the following standards and policies that apply to our internship
+        program and participants.\n\n
+
+        SJSU also adheres to Title VII of the Civil Rights Act of 1964 and Title IX of the Education
+        Amendments of 1972. The University’s unlawful harassment policy also applies to our
+        internship program to protect the rights of interns and provide an environment that is free
+        from sexual and other unlawful harassment as described below:\n\n
+
+        Unwanted and unsolicited sexual advances, requests for sexual favors, and other deliberate
+        or repeated communication of a sexual nature, whether spoken, written, physical, or
+        pictorial, shall constitute sexual harassment when:\n\n
+
+        1. Submission to such conduct is made either implicitly or explicitly a term or condition
+        of an individual’s employment, academic status, or participation in college-sponsored
+        activities.\n
+        2. Rejection of such conduct is used as the basis, implicitly or explicitly, for imposing
+        adverse terms and conditions of employment, academic status, or participation in
+        college-sponsored events.\n
+        3. Such conduct has the purpose or effect of unreasonably interfering with an individual’s
+        work performance or creating an intimidating, hostile or offensive working or learning
+        environment.\n\n
+
+        Other unlawful harassment is defined as verbal or physical harassment based on a legally
+        protected category, and when such conduct has the purpose or effect of unreasonably
+        interfering with an individual’s work performance or creating an intimidating hostile or
+        offensive environment.
+</string>
+    <string name="about_filler">•••</string>
 </resources>

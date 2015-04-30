@@ -10,7 +10,9 @@ import android.widget.Button;
 
 public class About extends Activity {
 
-    Button button;
+    private boolean FLSAc;
+    private boolean IvSc;
+    private boolean nDSHc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,14 +21,6 @@ public class About extends Activity {
         setContentView(R.layout.about_layout);
 
 
-        button = (Button) findViewById(R.id.button);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                finish();
-            }
-        });
-
-    }
+        }
 }
 

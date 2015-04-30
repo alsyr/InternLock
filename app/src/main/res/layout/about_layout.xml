@@ -1,56 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#ffffffff"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Job Shadows"
-        android:id="@+id/textView"
-        android:layout_marginTop="24dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="14dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_alignLeft="@+id/textView" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Internships"
-        android:id="@+id/textView3"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="24dp"
-        android:layout_marginLeft="14dp"
-        android:layout_alignLeft="@+id/textView2"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident"        
-        android:id="@+id/textView4"
-        android:layout_below="@+id/textView3"
-        
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_marginTop="14dp"
-        android:layout_marginLeft="14dp" />
-
-    <Button
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffffff">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/About_title"
+                android:text="Unpaid Internships/Shadowing (FLSA)"
+                android:id="@+id/FLSAt"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/About_filler"
+                        android:id="@+id/FLSAc"
+                        android:text="@string/about_filler"
+                        android:clickable="true"
+                        android:onClick="collapse"
+                        android:textColor="#ff000000"
+                        android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/About_title"
+                android:text="Internship v. Shadowing"
+                android:id="@+id/IvSt"
+                android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/About_filler"
+                        android:text="@string/about_filler"
+                        android:id="@+id/IvSc"
+                        android:textColor="#ff000000"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:onClick="collapse"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/About_title"
+                android:text="Non-Discrimination"
+                android:id="@+id/nDt"
+                android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/About_filler"
+                        android:id="@+id/nDc"
+                        android:text="@string/about_filler"
+                        android:textColor="#ff000000"
+                        android:layout_gravity="center"
+                        android:clickable="true"
+                        android:onClick="collapse"
+                        />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/About_title"
+                android:id="@+id/SHt"
+                android:text="Sexual and Other Unlawful Harassment"
+                android:clickable="true"
+                android:textColor="#ff000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/About_filler"
+                        android:id="@+id/SHc"
+                        android:text="@string/about_filler"
+                        android:layout_gravity="center"
+                        android:textColor="#ff000000"
+                        android:clickable="true"
+                        android:onClick="collapse"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </LinearLayout>
