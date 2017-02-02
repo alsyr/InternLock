@@ -26,7 +26,6 @@ public class UploadPicture extends Activity {
         setContentView(R.layout.uploadpicture);
 
 
-
         Upload = (Button) findViewById(R.id.Upload);
         buttonBack = (Button) findViewById(R.id.buttonBack);
         buttonNext = (Button) findViewById(R.id.buttonNext);

@@ -19,8 +19,6 @@ public class Search extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search);
 
-
-
         school = (Button) findViewById(R.id.buttonSchool);
         major = (Button) findViewById(R.id.buttonMajor);
         gpa = (Button) findViewById(R.id.buttonGPA);

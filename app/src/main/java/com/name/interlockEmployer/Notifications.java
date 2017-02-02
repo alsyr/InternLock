@@ -19,15 +19,9 @@ public class Notifications extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.notifications);
 
-
-
         buttonBack = (Button) findViewById(R.id.buttonBack);
         buttonHome = (Button) findViewById(R.id.buttonHome);
 
-
-
-       
-        
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 

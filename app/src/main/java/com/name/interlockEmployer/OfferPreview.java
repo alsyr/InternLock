@@ -19,15 +19,9 @@ public class OfferPreview extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.offerdescription);
 
-
-
         buttonBack = (Button) findViewById(R.id.buttonBack);
         buttonHome = (Button) findViewById(R.id.buttonHome);
 
-
-
-        
-        
         
         buttonBack.setOnClickListener(new View.OnClickListener() {
 

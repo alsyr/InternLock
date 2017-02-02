@@ -19,15 +19,9 @@ public class Confirmation extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.confirmatione);
 
-
-
         
         buttonContinue = (Button) findViewById(R.id.buttonContinue);
 
-
-
-       
-        
         
         buttonContinue.setOnClickListener(new View.OnClickListener() {
 

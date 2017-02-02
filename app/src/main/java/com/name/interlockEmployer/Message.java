@@ -19,15 +19,10 @@ public class Message extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.messagee);
 
-
-
        
         buttonBack = (Button) findViewById(R.id.buttonBack);
         buttonHome = (Button) findViewById(R.id.buttonHome);
 
-
-
-       
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
